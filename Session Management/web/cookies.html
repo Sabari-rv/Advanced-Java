@@ -1,0 +1,88 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Cookies Login Entry</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body  
+        {  
+            margin: 0;  
+            padding: 0;  
+            background-color:#6abadeba;  
+            font-family: 'Arial';  
+        }  
+        .login{  
+            width: 382px;  
+            overflow: hidden;  
+            margin: auto;  
+            margin: 20 0 0 450px;  
+            padding: 80px;  
+            background: #23463f;  
+            border-radius: 15px ;  
+
+        }  
+        h2{  
+            text-align: center;  
+            color: #277582;  
+            padding: 20px;  
+        }  
+        label{  
+            color: #08ffd1;  
+            font-size: 17px;  
+        }  
+        #name{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+        }  
+        #regno{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+
+        }  
+        #log{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 17px;  
+            padding-left: 7px;  
+            color: blue;  
+
+
+        }  
+        span{  
+            color: white;  
+            font-size: 17px;  
+        }  
+        a{  
+            float: right;  
+            background-color: grey;  
+        }  
+    </style>
+</head>    
+<body>    
+    <h2>Cookies Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="cookiesserv1">    
+        <label><b>Register Number     
+        </b>    
+        </label>    
+        <input type="text" name="regno" id="regno" placeholder="Register number">    
+        <br><br>    
+        <label><b>Student Name     
+        </b>    
+        </label>    
+        <input type="text" name="name" id="name" placeholder="Name">    
+        <br><br>    
+        <input type="submit" name="log" id="log" value="LogIn">       
+        <br><br>   
+    </form>
+        <a href="index.html" style="color: white">Click here to go back to Home page</a>
+</div>    
+</body>    
+</html>
