@@ -26,3 +26,16 @@ Program contains table creation, inserting records to the table, and retrives st
 </ul>
 <p>Web application to perform session management using servlets. One can navigate to session management techniques like <b>Http Session, Cookies, URL Rewriting, Hidden Field Form</b>. For each of the techniques, the request will be handled by a seperate servlet.</p>
 
+## Driving License Project
+
+<ul>
+<li>
+<a href = "https://github.com/Sabari-rv/Advanced-Java/blob/main/Student_SQL/src/student_sql/Student_SQL.java">Index Page</a>
+</li>
+<li>
+<a href = "https://github.com/Sabari-rv/Advanced-Java/blob/main/Student_SQL/src/student_sql/Student_SQL.java">JSP Page</a>
+</li>
+</ul>
+<p>A web application is built considering the following scenario.<br>
+Assume a driver (user) is caught by a police while violating the driving rules. Then, the police is providing him/her a login portal and asked the driver to submit the name and age. If the age is below 18 then the police has to report as “  Warning: You are not eligible for Driving”. Otherwise, each time the user is caught, then the police has a count on the particular user. If the user is caught third time then the police cancel his/her driving license, reported as ”DL CANCELLED ” along with date and time.</p>
+
